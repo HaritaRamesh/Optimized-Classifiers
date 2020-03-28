@@ -18,7 +18,7 @@ gauth = GoogleAuth()
 gauth.credentials = GoogleCredentials.get_application_default()
 drive = GoogleDrive(gauth)
 
-downloaded = drive.CreateFile({'id':'11y79Tmi7znU_ancRPVVn5MWffJ1i_9G0'}) # replace the id with id of file that you want to access
+downloaded = drive.CreateFile({'id':'.........'}) # replace the id with id of file that you want to access
 downloaded.GetContentFile('data.csv')
 
 # -*- coding: utf-8 -*-
